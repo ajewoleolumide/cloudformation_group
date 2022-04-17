@@ -3,6 +3,7 @@ Description: Provisioning of IAM Users in Groups with appropriate permissions
 
 Resources:
 
+  // group permissions
   IAMGroupA:
     Type: AWS::IAM::Group
     Properties: 
